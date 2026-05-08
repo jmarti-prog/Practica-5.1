@@ -13,13 +13,13 @@ import java.util.List;
  * Hereta de {@link Compte} i pot tenir targetes de crèdit,
  * fons d'inversió i carteres de valors associats.
  *
- * <p>Relacions:
+ * <p>Relacions:</p>
  * <ul>
  *   <li>Agregació amb {@link TarjetaCredit} (0..*)</li>
  *   <li>Associació amb {@link FonsInversio} (0..*)</li>
  *   <li>Associació amb {@link CarteraDeValors} (0..*)</li>
  * </ul>
- * </p>
+ *
  *
  * @author Alumne
  * @version 1.0
